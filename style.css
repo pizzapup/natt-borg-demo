@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+  padding: 2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+#output h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #f39c12;
+}
+
+#output ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}

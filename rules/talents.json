@@ -1,0 +1,8 @@
+{
+  "Investigator": {
+    "effect": "Once per scene, you may ask the GM for one true clue about your environment."
+  },
+  "Ritualist": {
+    "effect": "You can attempt minor banishment rituals without components."
+  }
+}

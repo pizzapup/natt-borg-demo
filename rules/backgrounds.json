@@ -1,0 +1,16 @@
+{
+  "1": {
+    "name": "Detective",
+    "hpBonus": "1d4",
+    "statMods": {"Perception": "+1", "Wits": "+2", "Spirit": "-1"},
+    "shreds": "1d4",
+    "talent": "Investigator"
+  },
+  "2": {
+    "name": "Exorcist",
+    "hpBonus": "1d6",
+    "statMods": {"Spirit": "+2", "Physique": "-1"},
+    "shreds": "1d6",
+    "talent": "Ritualist"
+  }
+}

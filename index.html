@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Natt Borg Character Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Natt Borg Character Generator</h1>
+
+    <!-- Lock Nature -->
+    <label for="nature">Nature:</label>
+    <select id="nature">
+        <option value="">Random</option>
+        <option value="1">Vampire</option>
+        <option value="2">Ghoul</option>
+        <!-- Add more natures as needed -->
+    </select>
+
+    <!-- Lock Background -->
+    <label for="background">Background:</label>
+    <select id="background">
+        <option value="">Random</option>
+        <option value="1">Detective</option>
+        <option value="2">Priest</option>
+        <!-- Add more backgrounds as needed -->
+    </select>
+
+    <!-- Lockable Stats -->
+    <fieldset>
+        <legend>Lock Stats (check to fix value)</legend>
+        <div id="stats-locks"></div>
+    </fieldset>
+
+    <button id="generate">Generate Character</button>
+
+    <div id="output"></div>
+
+    <script type="module" src="generator.js"></script>
+</body>
+
+</html>

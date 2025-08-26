@@ -1,0 +1,17 @@
+{
+  "weapons": [
+    {"name": "Rusty Revolver", "damage": "1d6", "range": "Medium"},
+    {"name": "Broken Sword", "damage": "1d8", "range": "Close"}
+  ],
+  "armor": [
+    {"name": "Leather Jacket", "armor": 1},
+    {"name": "Bulletproof Vest", "armor": 2}
+  ],
+  "relics": [
+    {"name": "Silver Cross", "effect": "Burns undead on contact."},
+    {
+      "name": "Cursed Locket",
+      "effect": "Once per session, reroll a failed check."
+    }
+  ]
+}

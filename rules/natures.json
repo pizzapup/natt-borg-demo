@@ -1,0 +1,29 @@
+{
+  "1": {
+    "name": "Vampire",
+    "hp": 8,
+    "weakness": "Sunlight",
+    "statusBonuses": {
+      "Fed": "+1",
+      "Hungry": "-1"
+    },
+    "abilities": [
+      {
+        "name": "Blood Rush",
+        "effect": "Reduce incoming damage by 2d4 and become Hungry."
+      },
+      {
+        "name": "Bite Attack",
+        "effect": "Deals 1d6 damage. On hit, become Fed if target has blood."
+      }
+    ]
+  },
+  "2": {
+    "name": "Ghoul",
+    "hp": 10,
+    "weakness": "Fire",
+    "abilities": [
+      {"name": "Corpse-Eater", "effect": "Regain HP when consuming flesh."}
+    ]
+  }
+}
